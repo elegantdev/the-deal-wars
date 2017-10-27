@@ -1,0 +1,18 @@
+// app
+@import './mixins';
+@import './colors';
+
+form {
+  label,
+  .control-label {
+    display: block;
+  }
+  
+  label.error {
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: normal;
+    color: $danger;
+  }
+}
